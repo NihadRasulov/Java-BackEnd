@@ -27,7 +27,5 @@ public class First {
         System.out.println("The div is: " + div);
         System.out.println("The bol is: " + bol);
 
-
-
     }
 }
