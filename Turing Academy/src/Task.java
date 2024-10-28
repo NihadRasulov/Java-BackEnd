@@ -5,8 +5,9 @@ public class Task {
     public static void main(String[] args) {
 
         Scanner number = new Scanner(System.in);
-        System.out.println("Please enter the numbers: ");
+        System.out.println("Please enter the number of a: ");
         int a = number.nextInt();
+        System.out.println("Please enter the number of b: ");
         int b = number.nextInt();
 
         int c = ++a;
