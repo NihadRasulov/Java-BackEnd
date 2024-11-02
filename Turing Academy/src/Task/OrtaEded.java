@@ -30,7 +30,8 @@ public class OrtaEded {
                 System.out.println("Meridian is: " + c);
                 System.out.println("Meridian duzulus: " + a + "," + b + " " + c);
             }
-        }else{
+        }
+        else{
             System.out.println("Your number is above 1000");
         }
     }
