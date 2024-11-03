@@ -8,6 +8,7 @@ public class Task3 {
             System.out.print(x + " ");
         }
         System.out.println("");
+
         for(char y='a';y<='z';y++){
             System.out.print(y + " ");
         }

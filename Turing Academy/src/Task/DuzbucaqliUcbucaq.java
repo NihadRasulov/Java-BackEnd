@@ -14,21 +14,26 @@ public class DuzbucaqliUcbucaq {
         System.out.print("Please enter Triangle side 3: ");
         int side3 = number.nextInt();
 
-            if (side1 < 1000 && side2 < 1000 && side3 < 1000) {
-                int a = side1 * side1;
-                int b = side2 * side2;
-                int c = side3 * side3;
-                if (a + b == c) {
-                    System.out.println("The Triangle is a Duzbucaqli Triangle");
-                } else if (a + c == b) {
-                    System.out.println("The Triangle is a Duzbucaqli Triangle");
-                } else if (b + c == a) {
-                    System.out.println("The Triangle is a Duzbucaqli Triangle");
-                } else {
-                    System.out.println("The Triangle isn't a Duzbucaqli Triangle");
+                if (side1 < 1000 && side2 < 1000 && side3 < 1000) {
+                    int a = side1 * side1;
+                    int b = side2 * side2;
+                    int c = side3 * side3;
+                    if (a + b == c) {
+                        System.out.println("The Triangle is a Duzbucaqli Triangle");
+                    }
+                    else if (a + c == b) {
+                        System.out.println("The Triangle is a Duzbucaqli Triangle");
+                    }
+                    else if (b + c == a) {
+                        System.out.println("The Triangle is a Duzbucaqli Triangle");
+                    }
+                    else {
+                        System.out.println("The Triangle isn't a Duzbucaqli Triangle");
+                    }
                 }
-            } else {
-                System.out.println("The triangle sides is too big");
-            }
+                else {
+                    System.out.println("The triangle sides is too big");
+                }
+
     }
 }
