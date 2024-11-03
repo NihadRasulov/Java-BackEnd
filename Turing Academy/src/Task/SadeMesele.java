@@ -6,7 +6,6 @@ public class SadeMesele {
 
     public static void main(String[] args) {
 
-        do {
             Scanner number = new Scanner(System.in);
             System.out.print("Please enter a number: ");
             int a = number.nextInt();
@@ -15,10 +14,10 @@ public class SadeMesele {
                 int b = a / 10;
                 int c = a % 10;
                 System.out.println("The number is:" + a);
-                System.out.println("The number space between digits:" + b + " " + c);
+                System.out.println("The number space between digits:" + b + "  " + c);
             } else {
                 System.out.println("Your number is'nt between 10 and 99");
             }
-        }while (true);
+
     }
 }

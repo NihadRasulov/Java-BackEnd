@@ -21,7 +21,7 @@ public class KvadratKok {
             System.out.println("The number digit 2 is: " + e);
             System.out.println("The number digit 3 is: " + c);
             System.out.println("The number digits sum is: " + f);
-            System.out.println("The number's kvadrat kok is: " + b);
+            System.out.println("The number's digits sum kvadrat kok is: " + b);
         }
         else {
             System.out.println("Invalid Input");

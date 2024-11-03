@@ -29,8 +29,8 @@ public class BirinciyoxsaAxirinci {
         }
     }
     else {
-        System.out.println("The number is'nt 3 digit number");
+        System.out.println("The number isn't 3 digit number");
     }
-        System.out.println("the number is: " + a);
+        System.out.println("The number is: " + a);
     }
 }

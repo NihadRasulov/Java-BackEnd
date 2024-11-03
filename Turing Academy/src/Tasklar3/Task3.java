@@ -7,10 +7,11 @@ public class Task3 {
         for(char x='A';x<='Z';x++){
             System.out.print(x + " ");
         }
-        System.out.println("");
+        System.out.println();
 
         for(char y='a';y<='z';y++){
             System.out.print(y + " ");
         }
+
     }
 }
