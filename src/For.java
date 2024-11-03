@@ -2,7 +2,6 @@ public class For {
 
     public static void main(String[] args) {
 
-            String name = "Nihad";
         for( int i=1;i<=3;i++){
             for(int j=1;j<=3;j++){
                 if(i==j){
