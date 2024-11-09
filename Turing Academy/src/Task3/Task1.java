@@ -17,7 +17,6 @@ public class Task1 {
         else{
             System.out.println("You can not input a word");
         }
-
         }
     }
 

@@ -21,8 +21,8 @@ public class Task2 {
                 System.out.println("The last character is not a vowel.");
             }
         }
-        else if(word.matches("[a-zA-Z]+")) {
-            System.out.println("You don't entered any word.");
-        }
+//        else if(word.matches("[a-zA-Z]+")) {
+//            System.out.println("You don't entered any word.");
+//        }
     }
 }
