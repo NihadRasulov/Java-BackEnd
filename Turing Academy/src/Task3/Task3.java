@@ -8,6 +8,7 @@ public class Task3 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Please enter a word: ");
             String word = scan.nextLine();
+
             if(!word.isEmpty()) {
                 String wordreverse = word.toUpperCase();
                 for (int i = wordreverse.length() - 1; i >= 0; i--) {
