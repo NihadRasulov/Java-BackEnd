@@ -23,6 +23,6 @@ public class Task2 {
         }
 //        else if(word.matches("[a-zA-Z]+")) {
 //            System.out.println("You don't entered any word.");
-//        }
+//        }    ???
     }
 }
