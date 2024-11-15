@@ -38,5 +38,6 @@ public class NumberGuss {
             }
             System.out.print("Enter your guess number again: ");
         }
+
     }
 }
