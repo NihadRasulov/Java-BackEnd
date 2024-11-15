@@ -1,8 +1,9 @@
 import java.util.Scanner;
-public class New {
+
+public class FirstJ {
+
     public static void main(String[] args) {
 
 
     }
-
 }
