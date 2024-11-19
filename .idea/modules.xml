@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Idea/Idea.iml" filepath="$PROJECT_DIR$/Idea/Idea.iml" />
       <module fileurl="file://$PROJECT_DIR$/Idea/.idea/JavaPDF.iml" filepath="$PROJECT_DIR$/Idea/.idea/JavaPDF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPDF1/JavaPDF1.iml" filepath="$PROJECT_DIR$/JavaPDF1/JavaPDF1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Turing Academy/Turing Academy.iml" filepath="$PROJECT_DIR$/Turing Academy/Turing Academy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Udemy/Udemy.iml" filepath="$PROJECT_DIR$/Udemy/Udemy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Idea/.idea/University.iml" filepath="$PROJECT_DIR$/Idea/.idea/University.iml" />
+      <module fileurl="file://$PROJECT_DIR$/University1/University1.iml" filepath="$PROJECT_DIR$/University1/University1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Idea/untitled.iml" filepath="$PROJECT_DIR$/Idea/untitled.iml" />
     </modules>
   </component>
