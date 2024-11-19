@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Idea/Idea.iml" filepath="$PROJECT_DIR$/Idea/Idea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Idea/.idea/JavaPDF.iml" filepath="$PROJECT_DIR$/Idea/.idea/JavaPDF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Turing Academy/Turing Academy.iml" filepath="$PROJECT_DIR$/Turing Academy/Turing Academy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Udemy/Udemy.iml" filepath="$PROJECT_DIR$/Udemy/Udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Idea/.idea/University.iml" filepath="$PROJECT_DIR$/Idea/.idea/University.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Idea/untitled.iml" filepath="$PROJECT_DIR$/Idea/untitled.iml" />
+    </modules>
+  </component>
+</project>
