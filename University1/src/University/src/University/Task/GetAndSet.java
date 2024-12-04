@@ -38,13 +38,10 @@ class Solider{
 
          if(age1 < 18){
              System.out.println("You can not go to military.Because your age is: " + age1);
+             System.out.println("And you are a student!");
          }
          else if(age1 >= 18 && age1 < 35 ){
              System.out.println("You can go to military.Because your age is: " + age1);
-         }
-         else if(age1 >= 18 && age1 < 35){
-             System.out.println("You can not go to military.Because your age is: " + age1);
-             System.out.println("And you are a student");
          }
          else {
              System.out.println("You have done your military because your age is: " + age1);
