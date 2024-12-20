@@ -1,6 +1,6 @@
 package University.src.University;
 
-public class Method {
+public class FirstMethod {
 
     static String mymethod(int a, int b, String name) {
         int toplam = a + b;

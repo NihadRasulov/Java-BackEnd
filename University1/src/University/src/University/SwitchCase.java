@@ -2,7 +2,7 @@ package University.src.University;
 
 import java.util.Scanner;
 
-public class FirstJ {
+public class SwitchCase {
 
     public static void main(String[] args) {
                 Scanner number = new Scanner(System.in);

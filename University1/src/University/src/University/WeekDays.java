@@ -1,7 +1,7 @@
 package University.src.University;
 
 import java.util.Scanner;
-public class New1 {
+public class WeekDays {
     public static void main(String[] args) {
         Scanner number = new Scanner(System.in);
         System.out.println("Please enter a number 1 to 7");

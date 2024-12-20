@@ -23,7 +23,6 @@ public class Booleantest {
     }
 
     class Solider1 {
-
         String name;
         int age;
         String oxuyur1;
