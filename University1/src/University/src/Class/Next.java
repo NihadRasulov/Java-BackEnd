@@ -10,6 +10,7 @@ class Next {
     }
 
     public void display() {
+
         System.out.println("Product Name: " + name + ", Price: $" + price);
     }
 }

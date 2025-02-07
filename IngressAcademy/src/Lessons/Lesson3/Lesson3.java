@@ -1,10 +1,8 @@
-package University.src.University;
+package Lessons.Lesson3;
 
-public class For {
+public class Lesson3 {
 
     public static void main(String[] args) {
 
-
     }
-
 }

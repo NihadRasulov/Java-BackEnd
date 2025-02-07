@@ -8,12 +8,12 @@ public class TryCatch {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the numerator: ");
-        int num1 = sc.nextInt();
+        double num1 = sc.nextDouble();
 
 
         while (true) {
             System.out.print("Enter the denominator: ");
-            int num2 = sc.nextInt();
+            double num2 = sc.nextDouble();
             try {
                 if (num2 == 0) {
                     throw new ArithmeticException("You can't divide by zero");

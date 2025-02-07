@@ -14,6 +14,6 @@ public class Reverse {
             b=b*10+digit;
             num=num/10;
         }
-        System.out.println("Important.Reverse number: " + b);
+        System.out.println("Reverse number: " + b);
     }
 }
