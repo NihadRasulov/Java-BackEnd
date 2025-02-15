@@ -1,8 +1,9 @@
-package Lessons.Lesson3;
+package Slide75;
 
-public class Lesson3 {
+public class InputCalculator {
 
     public static void main(String[] args) {
+
 
     }
 }

@@ -1,4 +1,4 @@
-package Slide51;
+package Section.Slide51;
 
 public class BarkingDog {
 

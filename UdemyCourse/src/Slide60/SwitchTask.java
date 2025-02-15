@@ -1,4 +1,4 @@
-package Slide59;
+package Slide60;
 
 public class SwitchTask {
 
