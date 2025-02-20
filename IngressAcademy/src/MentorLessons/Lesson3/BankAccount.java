@@ -7,6 +7,7 @@ public class BankAccount {
     int accountNumber;
     double balance;
 
+    
     public void deposit(double amount) {
         while (true) {
             if (amount < 0) {
@@ -48,9 +49,9 @@ public class BankAccount {
             break;
         }
     }
-    public void transfer(double transferAmount) {
-        balance -= transferAmount;
-    }
+//    public void transfer(double transferAmount) {
+//        balance -= transferAmount;
+//    }
 
 //    public void transfer(double transferAmount) {
 //
@@ -72,29 +73,29 @@ public class BankAccount {
         bankAccount1.balance = 100;
 
 
-        while(true) {
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Please enter the account number to transfer: ");
-            int accountNumber = scanner.nextInt();
-            if (accountNumber != bankAccount.accountNumber) {
-                System.out.println("Invalid account number!");
-                System.out.print("Please enter a valid account number: ");
-                scanner.nextInt();
-                continue;
-            }
-            else {
-                System.out.print("Please enter how much you want to transfer: ");
-                double transferNumber = scanner.nextDouble();
-                if (transferNumber > bankAccount.balance || transferNumber<0) {
-                    System.out.println("Invalid transfer amount!");
-                    System.out.print("Please enter a valid transfer amount: ");
-                    scanner.nextDouble();
-                    continue;
-                }
-                bankAccount.transfer(transferNumber);
-            }
-            break;
-        }
+//        while(true) {
+//            Scanner scanner = new Scanner(System.in);
+//            System.out.print("Please enter the account number to transfer: ");
+//            int accountNumber = scanner.nextInt();
+//            if (bankAccount.accountNumber != accountNumber) {
+//                System.out.println("Invalid account number!");
+//                System.out.print("Please enter a valid account number: ");
+//                scanner.nextInt();
+//                continue;
+//            }
+//            else {
+//                System.out.print("Please enter how much you want to transfer: ");
+//                double transferNumber = scanner.nextDouble();
+//                if (transferNumber > bankAccount.balance || transferNumber<0) {
+//                    System.out.println("Invalid transfer amount!");
+//                    System.out.print("Please enter a valid transfer amount: ");
+//                    scanner.nextDouble();
+//                    continue;
+//                }
+//                bankAccount.transfer(transferNumber);
+//            }
+//            break;
+//        }
 
 //        bankAccount1.balance = 10;
 //        bankAccount1.accountNumber = 1234;
