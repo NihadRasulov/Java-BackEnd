@@ -1,5 +1,6 @@
 package CinemaSeating;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class IngressCinema {
@@ -18,8 +19,8 @@ public class IngressCinema {
 
         boolean next = false;
         Scanner sc = new Scanner(System.in);
+        System.out.print("Please enter an option: ");
         while (!next) {
-            System.out.print("Please enter an option: ");
             int option = sc.nextInt();
             if (option <= 0 || option > 3) {
                 System.out.print("Please enter a valid option: ");
@@ -34,9 +35,18 @@ public class IngressCinema {
                             int row1 = Integer.parseInt(row) - 1;
                             int col1 = Integer.parseInt(col) - 1;
                             if ((row1 >= 0 && row1 < 5) && (col1 >= 0 && col1 < 5)) {
-                                System.out.println("You reserved " + row + " " + col + " seat");
-                                arrays[row1][col1] = "X";
-                                break;
+                                if (arrays[row1][col1] == "O") {
+                                    System.out.println("You reserved (" + row + "," + col + ") seat");
+                                    arrays[row1][col1] = "X";
+                                    break;
+                                }else {
+                                    System.out.println("This seat is reserved");
+                                    System.out.print("Please enter different seat row: ");
+                                    row = sc.next();
+                                    System.out.print("Please enter different seat column: ");
+                                    col = sc.next();
+                                }
+
                             } else if ((row1 < 0 || row1 > 5) && (col1 >= 0 && col1 < 5)) {
                                 System.out.print("Please enter the valid seat number to row: ");
                                 row = sc.next();
@@ -51,6 +61,7 @@ public class IngressCinema {
                             }
 
                         }
+                        System.out.print("Please enter an option: ");
                         break;
                     case 2:
                         System.out.println("This is available seats!");
@@ -61,6 +72,7 @@ public class IngressCinema {
                             }
                         }
                         System.out.println();
+                        System.out.print("Please enter an option: ");
                         break;
                     case 3:
                         System.out.println("Exiting...");
