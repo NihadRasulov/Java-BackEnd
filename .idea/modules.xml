@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Idea/Idea.iml" filepath="$PROJECT_DIR$/Idea/Idea.iml" />
       <module fileurl="file://$PROJECT_DIR$/IngressAcademy/IngressAcademy.iml" filepath="$PROJECT_DIR$/IngressAcademy/IngressAcademy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Idea/.idea/JavaPDF.iml" filepath="$PROJECT_DIR$/Idea/.idea/JavaPDF.iml" />
