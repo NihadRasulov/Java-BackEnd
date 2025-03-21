@@ -1,5 +1,7 @@
 package NihadRasulov;
 
+import java.util.Arrays;
+
 public class Task1 {
 
     public static void main(String[] args) {
@@ -76,8 +78,8 @@ class Queue {
             // eger baslangic ededi saxlamasaq bize front olaraq yeni deyeri verecek amma dequeued ve sum sehv olacaq
 
             front = front.nextNode; // baslangici  frontun nexti edirik cunki front silinir
-            totalSum -= front.value;
-            return front.value;
+            totalSum -= value;
+            return value;
         }
 
     }
