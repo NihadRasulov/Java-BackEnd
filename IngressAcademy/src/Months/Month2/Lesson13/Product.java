@@ -27,6 +27,17 @@ public class Product {
         this.stockQuantity = stockQuantity;
         this.brand = brand;
     }
+
+//    public String toString() {
+//        return "Product{" +
+//                "name='" + name + '\'' +
+//                ", price=" + price +
+//                ", discount=" + discount +
+//                ", category='" + category + '\'' +
+//                ", stockQuantity=" + stockQuantity +
+//                ", brand='" + brand + '\'' +
+//                '}';
+//    }
 //    public void productInfo() {
 //        System.out.println("Product: " + name + ", Price: " + price + ", Discount: " + discount + ", Stock Quantity: " + stockQuantity + ", Brand: " + brand);
 //    }
@@ -39,6 +50,8 @@ public class Product {
         Product three = new Product("PC",5000,400,"Technologies");
         Product four = new Product("WasherMachine",1500,100,"Home tools",12,"LG");
 
+
+        System.out.println(one);
 //        one.productInfo();
 //        System.out.println("------------------------------------------------------------------------------");
 //        two.productInfo();

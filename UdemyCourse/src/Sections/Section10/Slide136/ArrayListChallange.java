@@ -1,8 +1,6 @@
 package Sections.Section10.Slide136;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 public class ArrayListChallange {
 
@@ -13,7 +11,8 @@ public class ArrayListChallange {
         System.out.println("Available actions: " + "\n0 - to shutdown" + "\n1 - to add item(s) to list (comma delimited list)" +
                 "\n2 - to remove any items (comma delimited list)");
         Scanner sc = new Scanner(System.in);
-        while (true) {
+        boolean check = true;
+        while (check) {
             System.out.print("Enter a number for which action you want to do: ");
             int action = sc.nextInt();
             switch (action) {
@@ -39,10 +38,10 @@ public class ArrayListChallange {
                     System.out.println("List is: " + list);
                     list.sort(Comparator.naturalOrder());
                     System.out.println("Sorted list: " + list);
+                    check = false;
                     break;
-            }
-            if (action == 0) {
-                break;
+                default:
+                    System.out.println("Please enter valid action!");
             }
         }
     }

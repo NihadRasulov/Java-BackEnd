@@ -3,15 +3,16 @@ package Months.Month2.Lesson13;
 public class MethodOverloading {
 
     // Compile time Polimorfizm , Static polimorfizm
-    // Overloading metodun return tipininn ferqliliyini desteklemir.
+    // Overloading metodun return tipininn ferqliliyini desteklemir. (mane deyil)
     // OverLoading metodun parametr sayini destekleyir.
     // MEtodun parametrinde olan tip ferqliliyi overloadingi destekleyir
-    // Access modifier deyishikliyi overloadi desteklemir
+    // Access modifier deyishikliyi overloadi desteklemir (mane deyil)
     // Parametr sayi eyni ancaq yer deyishikliiyi overloadi destekleyir (vararg xaric)
     // Parennt Child parametr tiplerri overloadi destekleyir
     // Wrapper tipler overloadi destekleyir
     // Primitive tip ferqliliyi overloadi destekleyir.
-    // vararg ve array birlikde overloadi destekleMIR
+    // vararg ve array birlikde overloadi destekleMIR (vararg birinci gelerse)
+
     public void read() {
     }
     public void read(String text) {
