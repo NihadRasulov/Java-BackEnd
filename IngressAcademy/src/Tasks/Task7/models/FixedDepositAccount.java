@@ -5,7 +5,7 @@ public class FixedDepositAccount extends BankAccount{
         super(ownerName, accountNumber, pinCode);
     }
 
-//    @Override
+    @Override
     public void calculateInterest() {
         double interest = balance * 0.06; // 6%
         System.out.println("Faiz: " + interest + " AZN");

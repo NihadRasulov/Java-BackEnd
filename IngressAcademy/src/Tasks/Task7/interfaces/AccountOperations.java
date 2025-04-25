@@ -2,7 +2,7 @@ package Tasks.Task7.interfaces;
 
 public interface AccountOperations {
     void deposit(double amount);
-    void withdraw();
+    void withdraw(double amount);
     void calculateInterest();
-    void showBalance(double balance);
+    void showBalance();
 }
