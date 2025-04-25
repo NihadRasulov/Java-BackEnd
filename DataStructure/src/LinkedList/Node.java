@@ -75,7 +75,7 @@ class LinkedList {
         System.out.println("Linked List after insertion:");
         list.traverse();
 
-        list.delete(20);
+        list.delete(50);
         System.out.println("Linked List after deletion:");
         list.traverse();
     }

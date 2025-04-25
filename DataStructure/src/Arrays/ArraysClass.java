@@ -46,7 +46,7 @@ public class ArraysClass {
     public static void main(String[] args) {
             int [] arr = new int[]{5,10,20,25,30,35};
 
-            insertElement(50,5,arr,5); // best case - O(1) --> insert at the end
+            insertElement(50,5,arr,4); // best case - O(1) --> insert at the end
                                                             // worst case - O(n)
 
         System.out.println(Arrays.toString(arr));

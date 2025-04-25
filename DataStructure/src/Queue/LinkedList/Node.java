@@ -1,7 +1,6 @@
 package Queue.LinkedList;
 
-public // Node class
-class Node {
+public class Node {
     int data;
     Node next;
 
