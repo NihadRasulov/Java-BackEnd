@@ -1,8 +1,9 @@
-package AkulaSubhanMentor;
+package Task;
 
 import java.util.Scanner;
 
-public class TimerSubhan26_09_2007 {
+public class Timer {
+
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) throws InterruptedException {

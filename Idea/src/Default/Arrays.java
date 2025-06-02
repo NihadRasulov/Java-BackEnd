@@ -1,6 +1,6 @@
-import java.lang.reflect.Array;
+package Default;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class Arrays {
 
@@ -13,13 +13,13 @@ public class Arrays {
 //        String []arr = arrayList.toArray(new String[arrayList.size()]);
 
 
-//        System.out.println(java.util.Arrays.toString(arr));
+//        System.out.println(java.util.Default.Arrays.toString(arr));
 
 
 //        String []arr = new String[]{"Hello","World"};
 //
 ////        ArrayList<String> arrayList = new ArrayList<>(List.of(arr));
-//        List<String> array = java.util.Arrays.asList(arr);
+//        List<String> array = java.util.Default.Arrays.asList(arr);
 //        System.out.println(array);
 
 

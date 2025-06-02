@@ -15,12 +15,14 @@ public class IngressCinema {
             }
         }
         System.out.println("Welcome to Ingress Cinema!");
-        System.out.println("Please select option: \n" + "1.Reserve Seat\n" + "2.See avialable seats\n" + "3.Exit");
+
 
         boolean next = false;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Please enter an option: ");
+
         while (!next) {
+            System.out.println("Please select option: \n" + "1.Reserve Seat\n" + "2.See avialable seats\n" + "3.Exit");
+            System.out.print("Please enter an option: ");
             int option = sc.nextInt();
             if (option <= 0 || option > 3) {
                 System.out.print("Please enter a valid option: ");
@@ -61,7 +63,7 @@ public class IngressCinema {
                             }
 
                         }
-                        System.out.print("Please enter an option: ");
+//                        System.out.print("Please enter an option: ");
                         break;
                     case 2:
                         System.out.println("This is available seats!");
@@ -72,7 +74,7 @@ public class IngressCinema {
                             }
                         }
                         System.out.println();
-                        System.out.print("Please enter an option: ");
+//                        System.out.print("Please enter an option: ");
                         break;
                     case 3:
                         System.out.println("Exiting...");

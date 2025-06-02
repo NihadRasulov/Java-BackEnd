@@ -1,3 +1,5 @@
+package Default;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -18,7 +20,7 @@ public class BankAccount {
             } else {
                 System.out.println("Before your balance is " + balance);
                 balance += amount;
-                System.out.println("You deposit " + amount + " New balance is " + balance);
+                System.out.println("You deposit " + amount + " Default.New balance is " + balance);
             }
             break;
         }
@@ -41,7 +43,7 @@ public class BankAccount {
                 } else {
                     System.out.println("Before your balance is " + balance);
                     balance -= amount;
-                    System.out.println("You withdraw " + amount + " New balance: " + balance);
+                    System.out.println("You withdraw " + amount + " Default.New balance: " + balance);
                     check = false;
                 }
             }
@@ -72,7 +74,7 @@ public class BankAccount {
                     balance -= transferAmount;
                     accountBalances.set(i, accountBalances.get(i) + transferAmount);
                     System.out.println("You transferred " + transferAmount + " to " + accountNames.get(i) +
-                            ". New balance: " + balance);
+                            ". Default.New balance: " + balance);
                     found = true;
                     check = false;
                 }
@@ -158,7 +160,7 @@ while(checkSwitch) {
                                }
                                else {
                                     balance -= transferAmount;
-                                    System.out.println("You transfer " + transferAmount + " New balance: " + balance);
+                                    System.out.println("You transfer " + transferAmount + " Default.New balance: " + balance);
                                     System.out.println("Before transfer balance is " + accountNumbers.get(i));
                                     accountBalances.add(i, accountBalances.get(i) + transferAmount);
                                     System.out.println("You send: " + transferAmount + " to account number: " + accountNumbers.get(i) + " account name: " + accountNames.get(i));

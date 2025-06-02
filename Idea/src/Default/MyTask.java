@@ -1,3 +1,5 @@
+package Default;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,7 +18,7 @@ public class MyTask {
             } else {
                 System.out.println("Before your balance is " + balance);
                 balance += amount;
-                System.out.println("You deposited " + amount + ". New balance is " + balance);
+                System.out.println("You deposited " + amount + ". Default.New balance is " + balance);
                 break;
             }
         }
@@ -35,7 +37,7 @@ public class MyTask {
             } else {
                 System.out.println("Before your balance is " + balance);
                 balance -= amount;
-                System.out.println("You withdrew " + amount + ". New balance: " + balance);
+                System.out.println("You withdrew " + amount + ". Default.New balance: " + balance);
                 break;
             }
         }
@@ -58,7 +60,7 @@ public class MyTask {
 //                } else {
 //                    balance -= transferAmount;
 //                    accountBalances.set(i, accountBalances.get(i) + transferAmount);
-//                    System.out.println("You transferred " + transferAmount + " to " + accountNames.get(i) + ". New balance: " + balance);
+//                    System.out.println("You transferred " + transferAmount + " to " + accountNames.get(i) + ". Default.New balance: " + balance);
 //                }
 //                found = false;
 //                break;

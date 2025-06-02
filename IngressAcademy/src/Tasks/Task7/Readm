@@ -27,11 +27,11 @@ Bu layihə aşağıdakı obyekt yönlü proqramlaşdırma (OOP) anlayışların�
 
 ✅ Hesab Növləri:
 
-Savings Account – 4% faiz
+Savings Default.Account – 4% faiz
 
-Current Account – 2% faiz
+Current Default.Account – 2% faiz
 
-Fixed Deposit Account – 6% faiz
+Fixed Deposit Default.Account – 6% faiz
 
 ✅ Əməliyyatlar:
 
@@ -51,7 +51,7 @@ com.bank
 │   └── AccountOperations.java     # Əsas interface – əməliyyat metodlarını müəyyən edir
 │
 ├── models
-│   ├── BankAccount.java           # Abstrakt class – ümumi bank hesabı strukturunu saxlayır
+│   ├── Default.BankAccount.java           # Abstrakt class – ümumi bank hesabı strukturunu saxlayır
 │   ├── SavingsAccount.java        # Savings hesabı – faiz və funksiyalar override olunur
 │   ├── CurrentAccount.java        # Current hesabı
 │   └── FixedDepositAccount.java   # Fixed Deposit hesabı
